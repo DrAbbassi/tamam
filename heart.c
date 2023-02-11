@@ -12,12 +12,12 @@ void heart() {
             z = x*x+y*y-1;
             f = z*z*z-x*x*y*y*y;
 
-            if (f <= 0) printf("%C", 2);
-            else printf(" ");
-
-            putchar('\n');
+            if (f <= 0) printf("#");
+            else printf(" ");  
 
         }
+
+        putchar('\n');
     }
 }
 
