@@ -23,6 +23,6 @@ void heart() {
 
 int main() {
 
-    printf("Tamam\n");
+    printf("Heart!\n");
     heart(); 
 }
